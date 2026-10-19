@@ -17,6 +17,7 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: "RobertCore: reliable space-to-ground communication, engineered for real-world conditions." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "robots", content: "index, follow, max-image-preview:large, max-video-preview:-1" },
     ],
   }),
   component: Index,
