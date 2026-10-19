@@ -296,11 +296,10 @@ body { font-family: var(--font-sans); background: var(--ink); -webkit-font-smoot
 .founder-card:hover .founder-media img { filter: grayscale(.2) contrast(1.02); transform: scale(1.03); }
 
 /* Origin panels (The Name section) */
-.origin-panel { --p: 0; position: relative; aspect-ratio: 4 / 5; color: var(--paper); }
+.origin-panel { --p: 0; position: relative; aspect-ratio: 1 / 1; color: var(--paper); }
 .origin-aperture { position: absolute; inset: 0; overflow: hidden; background: var(--ink-2);
   clip-path: inset(calc((1 - var(--p)) * 14%) calc((1 - var(--p)) * 10%)); }
-.origin-img { position: absolute; inset: -8% 0; width: 100%; height: 116%; object-fit: cover;
-  transform: translateY(calc((0.5 - var(--p)) * 10%)) scale(calc(1.2 - var(--p) * 0.12));
+.origin-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center;
   filter: grayscale(1) contrast(1.05); transition: filter 1.2s var(--ease-out); }
 .origin-panel:hover .origin-img { filter: grayscale(.6) contrast(1.05); }
 .origin-aperture::after { content: ""; position: absolute; inset: 0; pointer-events: none;
