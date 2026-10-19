@@ -131,7 +131,7 @@ function Index() {
               <Dialog.Trigger className="menu-btn mono" aria-label="Open menu"><span className="menu-btn-fill" /><span className="menu-btn-label hidden sm:inline-block"><Scramble text="Menu" /></span><span className="menu-btn-icon"><span className="menu-bars"><span /><span /></span></span></Dialog.Trigger>
               <Dialog.Portal>
                 <Dialog.Overlay className="fixed inset-0 z-[60] overflow-hidden bg-ink">
-                  <video src={issVideo.url} autoPlay loop muted playsInline className="absolute inset-0 h-full w-full object-cover grayscale opacity-50" />
+                  <video src={issVideo.url} autoPlay loop muted playsInline className="absolute inset-0 h-full w-full object-cover" />
                   <div className="absolute inset-0 bg-ink/50" />
                 </Dialog.Overlay>
                 <Dialog.Content aria-describedby={undefined} className="site-container fixed inset-0 z-[61] flex max-w-none flex-col overflow-y-auto bg-transparent pb-8 pt-6 text-paper">
