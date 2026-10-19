@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Publish the public site for Google discovery and verify all photos and the original clip on the live URL.
+
 - [x] Restore the original ISS clip and its natural colors. Served MP4 matches original bytes; appearance and playback checked with a browser-compatible test copy because sandbox Chromium lacks H.264 support.
 
 - [ ] Refine GodHeimer into an Anduril-led industrial editorial experience.
