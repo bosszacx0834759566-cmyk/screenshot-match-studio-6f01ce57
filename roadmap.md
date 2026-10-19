@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Restore the original ISS clip and its natural colors; verify playback.
+- [x] Restore the original ISS clip and its natural colors. Served MP4 matches original bytes; appearance and playback checked with a browser-compatible test copy because sandbox Chromium lacks H.264 support.
 
 - [ ] Refine GodHeimer into an Anduril-led industrial editorial experience.
 - [ ] Preserve flat black/white backgrounds, Orbitron, existing content, and unframed logos.
